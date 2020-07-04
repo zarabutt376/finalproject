@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hotel2"
+    tools:context=".naranhotel">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="@string/accomadation_in_naran"
+        android:textSize="30sp"
+        android:background="@color/black"
+        android:textStyle="bold"
+        app:fontFamily="cursive"
+        android:gravity="center"
+        android:textColor="@color/white"
+        >
+
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/click_button_below_to_select_hotel"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:background="@color/black"
+        android:textColor="@color/white"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/nhone"
+        android:text="@string/swisswood_cottages"
+        android:textColor="@color/white"
+        android:background="@color/black"/>
+
+    <Button
+        android:id="@+id/nhtwo"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:background="@color/black"
+        android:text="@string/arcadian_riverside"
+        android:textColor="@color/white" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="25dp"
+        android:id="@+id/nhthree"
+        android:text="@string/millineum_inn"
+        android:textColor="@color/white"
+        android:background="@color/black"/>
+
+</LinearLayout>
+
+
